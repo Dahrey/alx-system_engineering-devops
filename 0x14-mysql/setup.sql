@@ -1,4 +1,4 @@
-REATE USER holberton_user@localhost IDENTIFIED BY "projectcorrection280hbtn";
+CREATE USER holberton_user@localhost IDENTIFIED BY "projectcorrection280hbtn";
 GRANT REPLICATION CLIENT ON *.* TO 'holberton_user'@'localhost';
 CREATE DATABASE tyrell_corp;
 USE tyrell_corp;
